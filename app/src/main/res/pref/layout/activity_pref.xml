@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/layout_header"/>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <TextView android:layout_height="match_parent" android:layout_width="0dp" android:text="ID" android:gravity="center" android:layout_weight="2"/>
+
+    <EditText android:layout_height="48dp" android:layout_width="0dp" android:layout_weight="8" android:inputType="textPersonName" android:hint="Input Your ID" android:ems="10" android:id="@+id/et_pref_id"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <TextView android:layout_height="match_parent" android:layout_width="0dp" android:text="PW" android:gravity="center" android:layout_weight="2"/>
+
+    <EditText android:layout_height="48dp" android:layout_width="0dp" android:layout_weight="8" android:inputType="textPersonName" android:hint="Input Your Password" android:ems="10" android:id="@+id/et_pref_pw"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <TextView android:layout_height="match_parent" android:layout_width="0dp" android:text="Name" android:gravity="center" android:layout_weight="2"/>
+
+    <EditText android:layout_height="48dp" android:layout_width="0dp" android:layout_weight="8" android:inputType="textPersonName" android:hint="Input Your Name" android:ems="10" android:id="@+id/et_pref_name"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <TextView android:layout_height="match_parent" android:layout_width="0dp" android:text="AGE" android:gravity="center" android:layout_weight="2"/>
+
+    <EditText android:layout_height="48dp" android:layout_width="0dp" android:layout_weight="8" android:inputType="textPersonName" android:hint="Input Your Age" android:ems="10" android:id="@+id/et_pref_age"/>
+
+</LinearLayout>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="SAVE" android:id="@+id/btn_pref_save"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="LOAD" android:id="@+id/btn_pref_load"/>
+
+</LinearLayout>

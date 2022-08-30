@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.drawerlayout.widget.DrawerLayout android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/layout_navi" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar app:title="Toolbar" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/tb_navi" android:theme="?attr/actionBarTheme" android:minHeight="?attr/actionBarSize" android:background="#FFB3B3"/>
+
+    <FrameLayout android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/fl_navi"> </FrameLayout>
+
+</LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_height="match_parent" android:layout_width="200dp" android:id="@+id/nv_navi"
+        app:menu="@menu/menu_item" app:headerLayout="@layout/navi_item" android:layout_gravity="start"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

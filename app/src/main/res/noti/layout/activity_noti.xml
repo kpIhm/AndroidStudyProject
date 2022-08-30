@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/layout_header"/>
+
+
+    <LinearLayout android:layout_height="48dp" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <TextView android:layout_height="match_parent" android:layout_width="0dp" android:textSize="25dp" android:text="번호 : " android:gravity="center" android:layout_weight="2" android:id="@+id/textView6"/>
+
+    <EditText android:layout_height="match_parent" android:layout_width="0dp" android:textSize="25dp" android:layout_weight="8" android:id="@+id/et_noti_tel" android:inputType="textPersonName" android:hint="전화번호를 입력하세요." android:ems="10"/>
+
+</LinearLayout>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="기본 알림 통지" android:id="@+id/btn_noti_normal"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="빅 피쳐 스타일 알림 통지" android:id="@+id/btn_noti_extend"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="인박스 스타일 알림 통지" android:id="@+id/btn_noti_inbox"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="다이얼로그 알림 통지" android:id="@+id/btn_noti_dialog"/>
+
+</LinearLayout>

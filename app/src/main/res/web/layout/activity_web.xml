@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="46dp" android:layout_width="match_parent" android:orientation="horizontal" android:background="#ffffff">
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="100dp" android:background="@android:color/transparent" android:src="@drawable/ic_back_arrow" android:paddingBottom="15dp" android:scaleType="fitStart" android:paddingTop="15dp" android:paddingStart="35dp" android:contentDescription="뒤로가기 버튼" android:id="@+id/ibtn_back_click"/>
+
+    <Space android:layout_height="0dp" android:layout_width="0dp" android:layout_weight="1"/>
+
+    <ImageButton android:layout_height="wrap_content" android:layout_width="100dp" android:background="@android:color/transparent" android:src="@drawable/ic_forward_arrow" android:paddingBottom="15dp" android:scaleType="fitStart" android:paddingTop="15dp" android:paddingStart="35dp" android:contentDescription="앞으로가기 버튼" android:id="@+id/ibtn_forward_click" android:visibility="gone"/>
+
+</LinearLayout>
+
+
+    <LinearLayout android:layout_height="48dp" android:layout_width="match_parent" android:orientation="horizontal">
+
+    <EditText android:layout_height="match_parent" android:layout_width="0dp" android:id="@+id/et_url_name" android:layout_weight="8" android:textSize="20dp" android:inputType="textPersonName" android:hint="https://" android:ems="10"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="0dp" android:id="@+id/btn_url_move" android:layout_weight="2" android:textSize="20dp" android:text="이동"/>
+
+</LinearLayout>
+
+
+    <FrameLayout android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/layout_webview">
+
+    <WebView android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/wv_main"> </WebView>
+
+    <ProgressBar android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/pb_web_view" android:layout_gravity="center" style="?android:attr/progressBarStyle"/>
+
+</FrameLayout>
+
+</LinearLayout>

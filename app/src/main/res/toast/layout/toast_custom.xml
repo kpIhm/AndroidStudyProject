@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout android:layout_height="wrap_content" android:layout_width="0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent" android:padding="8dp" android:layout_marginBottom="16dp">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:visibility="visible"
+        android:textSize="16dp" android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        android:shadowRadius="24" android:shadowDy="4" android:shadowDx="-16.0" android:shadowColor="#000000" android:alpha=".56"
+        android:layout_centerHorizontal="true" android:id="@+id/tv_toast_left_blur"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="16dp"
+        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry." android:layout_centerHorizontal="true"
+        android:id="@+id/tv_toast_msg"/>
+
+        <TextView
+            android:id="@+id/tv_toast_right_blur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:alpha=".56"
+            android:shadowColor="#000000"
+            android:shadowDx="16.0"
+            android:shadowDy="4.0"
+            android:shadowRadius="24"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            android:textSize="16dp"
+            android:visibility="visible" />
+
+</RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

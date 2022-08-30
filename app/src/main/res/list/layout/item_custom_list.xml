@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="horizontal" android:background="#ffffff" android:layout_height="100dp" android:layout_width="match_parent" android:id="@+id/layout_list_item" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView android:layout_height="70dp" android:layout_width="70dp" android:id="@+id/iv_custom_profile" android:src="@drawable/ic_profile" android:layout_marginEnd="15dp" android:layout_marginStart="15dp" android:layout_gravity="center"/>
+
+
+    <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent">
+
+    <TextView android:background="#ff0000" android:layout_height="0dp" android:layout_width="match_parent" android:id="@+id/tv_custom_item_name" android:text="Name" android:gravity="center" android:layout_weight="1"/>
+
+    <TextView android:background="#2196F3" android:layout_height="0dp" android:layout_width="match_parent" android:id="@+id/tv_custom_item_age" android:text="Age" android:gravity="center" android:layout_weight="1"/>
+
+</LinearLayout>
+
+</LinearLayout>

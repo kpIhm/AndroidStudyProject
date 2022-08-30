@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/layout_header"/>
+
+    <TextView android:layout_height="100dp" android:layout_width="match_parent" android:textColor="#000000" android:text="서버 접속 메시지" android:gravity="center" android:background="#8D93B8" android:layout_marginTop="25dp" android:id="@+id/tv_server_conn_status"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="서버 연결 버튼" android:id="@+id/btn_server_conn"/>
+
+</LinearLayout>
